@@ -1,0 +1,68 @@
+# =========================
+# Java Compiled Files
+# =========================
+*.class
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Package Files
+# =========================
+*.jar
+*.war
+*.ear
+
+# =========================
+# JVM Crash Logs
+# =========================
+hs_err_pid*
+
+# =========================
+# Build Folders
+# =========================
+target/
+build/
+out/
+bin/
+
+# =========================
+# IDE Files
+# =========================
+
+# VS Code
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+dist/
+
+# =========================
+# OS Generated Files
+# =========================
+
+# macOS metadata files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Files generated when using external drives/devices on macOS
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Desktop.ini

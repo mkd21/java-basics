@@ -1,0 +1,15 @@
+
+
+class and object
+
+JVM is responsible for creating an object in java
+
+what happens is
+
+1. we create the class (blueprint) 
+
+2. compile the code --> converts into byte code 
+
+3. JVM then reads the byte code and ceates the object accordingly
+
+
