@@ -1,4 +1,5 @@
 
+package oop_refresher;
 
 class Human 
 {
@@ -35,7 +36,7 @@ class Human
 }
 
 
-public class parameterisedConstructor {
+public class ParameterisedConstructor {
     public static void main(String[] args) {
         
         // Human h1 = new Human();
