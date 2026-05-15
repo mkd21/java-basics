@@ -1,6 +1,6 @@
 
 
-package oop_refresher.super_and_this_keyword;
+package oop_refresher.super_method_in_java;
 
 
 class A extends Object
