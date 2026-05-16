@@ -31,7 +31,24 @@ public class UpcastingAndDowncasting {
         // obj.show_Child();     --> cannot access child class method 
 
 
-        
+        // upcasting example 
+        // object is of child class but its upcasted to parent class 
+        // even if we don't mention this , this happens internally
+
+        Parent obj1 = (Parent) new Child();
+        obj1.show_Parent();
+
+        // but then also we cannot access child class method 
+
+        // to do that we will need to downcast it 
+
+        // downcasting example 
+        // here reference is of child class and we have explicitly downcasted the obj1 to child class object
+        // now we are refering to child class and object is also of child class , so method called
+
+        Child obj2 = (Child) obj1;
+
+        obj2.show_Child();
 
     }
     
