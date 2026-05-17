@@ -1,0 +1,19 @@
+
+
+If we don't write any access modifier for a class, method, variable, or constructor, 
+Java gives it default access, also called package-private.
+
+
+IMPORTANT 
+
+whichever inbuild class we use in java belongs to a package
+
+so , System.out.println() this we do so 
+
+System is a class in java 
+
+but to use this we never need to import the package, what the matter here?
+
+because System class belongs to java.lang package and by default it is present inside every file
+
+like import java.lang.*;
