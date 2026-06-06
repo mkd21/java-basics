@@ -48,7 +48,7 @@ public class staticMethod {
     the integer value that it will receive and do processing according to that 
 
 
-    even if we try to use salary (which is an instance variable) inside static method it will throw an error 
+    even if we try to use Salary (which is an instance variable) inside static method it will throw an error 
 
     because instance variables are dependent on objects. 
 

@@ -40,13 +40,12 @@ public class Dmd {
         obj = new C();
         obj.show();
 
-
     }
 
 }
 
 /*
-    example of runtime polymorphism alos know as dynamic method dispatch 
+    example of runtime polymorphism, also know as dynamic method dispatch 
 
 
     what is the type of object does not matter , what really matters is the object
