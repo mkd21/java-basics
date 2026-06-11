@@ -32,6 +32,6 @@ public class interfaceInheritance {
     public static void main(String[] args) {
         
         Implementor imp = new Implementor();
-        
+        imp.m23();
     }
 }

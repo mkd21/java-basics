@@ -1,5 +1,5 @@
 
-package enums;
+package enums.enumbasics;
 
 enum Status
 {
@@ -16,7 +16,7 @@ enum Days
 }
 
 
-public class enumstarter
+public class EnumBasicDemo
 {
     public static void main(String[] args) {
         
