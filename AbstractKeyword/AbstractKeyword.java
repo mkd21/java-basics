@@ -1,24 +1,59 @@
 
-package AbstractKeyword;
+package abstractkeyword;
 
 abstract class Car 
 {
-    abstract void drive();
+    abstract void drive();  // can contain abstract method 
 
-    static int x = 10;
+    static int x = 10;  // can nontain static variable 
 
-    void playMusic()
+    int y = 34;   // can contain instance variable 
+
+
+    void playMusic() // concrete method
     {
         System.out.println("playing music");
     }
+
+    int minPrice;
+
+
+    Car(){}  // default constructor 
+
+    // // can contain constructors as well
+    Car(int minPrice)
+    {
+        this.minPrice = minPrice;
+    }
+
+    abstract void getPrice();
 }
 
 class BMW extends Car
 {
+    // not a correct design 
+
+    // BMW(int price) 
+    // {
+    //     minPrice = price;
+    // }
+
+
+    // this is correct design pattern to follow
+    BMW(int price)
+    {
+        super(price);
+    }
+
     // must be implemented in sub class (if sub class is non static)
     void drive()
     {
         System.out.println("car is moving");
+    }
+
+    void getPrice()
+    {
+        System.out.println("minimum price is " + minPrice);
     }
 
 }
@@ -30,17 +65,17 @@ public class AbstractKeyword {
         // astract class cannot be instantiated directly
         // Car c1 = new Car();
 
-        BMW m3 = new BMW();
+        BMW m3 = new BMW(5000000);
         m3.drive();
+        m3.getPrice();
 
         // or 
 
-        Car c1 = new BMW();
+        Car c1 = new BMW(45000000);
         c1.drive();
-        
+        c1.getPrice();
 
         // System.out.println(Car.x);   // but a static class can be initialized by using static variable or method
-
     }
 }
 

@@ -37,6 +37,11 @@ public class EnumBasicDemo
         // because we cannot assign int or string in type Days
 
         
+
+        // every enum extends super class named Enum class 
+
+        System.out.println(response.getClass().getSuperclass());
+
     }
 }
 
@@ -51,4 +56,5 @@ public class EnumBasicDemo
 
     behind the scenes enums are converted into class 
 
+    every enum class extends a super class named Enum
 */
