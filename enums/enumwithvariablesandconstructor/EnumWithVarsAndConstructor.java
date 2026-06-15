@@ -38,7 +38,7 @@ public class EnumWithVarsAndConstructor {
         
         Laptop l1 = Laptop.MACBOOK;
 
-        // System.out.println(l1.getPrice());
+        System.out.println(l1.getPrice());
 
         // printing all the named constants value 
 
@@ -69,7 +69,7 @@ public class EnumWithVarsAndConstructor {
 
     who calls the constuctor then?
 
-    jave itself calls the constructor and assigns the values
+    jave itself calls the constructor and assigns the values. (done during the initialisation of enum )
 
     we can have getters and setters as well 
 
