@@ -25,7 +25,7 @@ class Helper
     }
 }
 
-public class InterfaceBehaviour {
+public class interfacebehaviour {
     public static void main(String[] args) {
         
         System.out.println(Test.res);

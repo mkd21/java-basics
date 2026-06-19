@@ -37,7 +37,7 @@ public class Interface
 
 /*
 
-    an interface in java is a contract whichh tells the class what methods it should provide but not 
+    an interface in java is a contract which tells the class what methods it should provide but not 
     necessarily how these methods must be implemented
 
     its like 
