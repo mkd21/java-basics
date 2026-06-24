@@ -1,7 +1,7 @@
 
 package Interface.LambdaExpression;
 
-@FunctionalInterface
+@FunctionalInterface //. will check if we follow the rule of functional interface or not
 interface Vehicle 
 {
     void start();
@@ -19,7 +19,8 @@ public class lambdaexpression {
             System.out.println("starting...");
         };
 
-        v1.start();
+        v1.start();  // will call the start method,implemented using lambda expression
+
         v1.stop();
     }    
 }
