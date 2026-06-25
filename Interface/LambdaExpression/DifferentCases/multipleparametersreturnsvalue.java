@@ -9,5 +9,10 @@ interface Calculator
 public class multipleparametersreturnsvalue {
     public static void main(String[] args) {
         
+        Calculator calc = (a , b) -> a + b;
+
+        int res = calc.add(4, 5);
+
+        System.out.println(res);
     }   
 }
