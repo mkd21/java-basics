@@ -43,15 +43,12 @@ public class checkedexceptions {
 
 /*
 
-
-
     why it is called checked exception? and why it is extending the Exception class?
 
     because exceptions like this can be catched at compile time if not handles properly. compiler
     throws compilation errors if we proceed without handling the exceptions.
 
     
-
 
     throw new CheckedExceptionExample();  
 
@@ -61,7 +58,6 @@ public class checkedexceptions {
     if we write any arguement we need to write the parameterised constructor
     just like we do with the classes and  objects they are also same na
 
-
-
+    
 
 */
